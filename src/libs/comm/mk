@@ -1,0 +1,5 @@
+gcc -g -I ./ -fPIC -shared -o libcomm.so libcomm.cc -ldl
+
+gcc -g -I ./ -fPIC -shared -o libcommtcpipv4.so tcpipv4/libcommtcpipv4.cc 
+
+gcc -g -I ./ -fPIC -shared -o libcommtcpipv6.so tcpipv6/libcommtcpipv6.cc

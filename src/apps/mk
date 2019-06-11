@@ -1,0 +1,1 @@
+gcc -g -I ../libs/comm -L ./ -o comm comm.cc -Wl,--no-as-needed -lcomm -lcommtcpipv4 -lcommtcpipv6 -lstdc++
